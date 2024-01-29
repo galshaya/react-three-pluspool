@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1 className="title">+Pool Gen</h1>
+      <p className="title">+POOL 3D Canvas</p>
       <div className="frame-container" style={{ backgroundImage: `url(${background})` }}>
         <Canvas camera={{ fov: 70, position: [0, 3, 8] }}>
           <OrbitControls />
